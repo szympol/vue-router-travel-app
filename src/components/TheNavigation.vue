@@ -20,8 +20,7 @@ import store from "../store";
 export default {
   data() {
     return {
-      destinations: store.destinations,
-      slug: this.$route.params.slug
+      destinations: store.destinations
     };
   }
 };
